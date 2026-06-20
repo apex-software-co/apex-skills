@@ -1,0 +1,8 @@
+{
+  "name": "apex-backend-laravel",
+  "description": "Convenções de backend do Apex/Matti ERP (Laravel 11, PHP 8.2, multi-tenant): services por módulo em app/Erp, scoping por organização/empresa, DTOs, repositories, FormRequests, testes PHPUnit.",
+  "author": {
+    "name": "Apex Software"
+  },
+  "keywords": ["laravel", "php", "erp", "backend", "conventions", "apex-erp-core"]
+}

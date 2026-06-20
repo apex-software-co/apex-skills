@@ -14,6 +14,13 @@
       "description": "Gera as mensagens padronizadas de release do apex-agents em três versões (GitHub técnica, parceiros, clientes).",
       "category": "productivity",
       "keywords": ["release", "changelog", "comunicado", "apex-agents"]
+    },
+    {
+      "name": "apex-backend-laravel",
+      "source": "./plugins/apex-backend-laravel",
+      "description": "Convenções de backend do Apex/Matti ERP (Laravel 11, PHP 8.2, multi-tenant): services por módulo, scoping por organização/empresa, DTOs, repositories, FormRequests e testes.",
+      "category": "development",
+      "keywords": ["laravel", "php", "erp", "backend", "conventions", "apex-erp-core"]
     }
   ]
 }

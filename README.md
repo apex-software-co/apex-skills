@@ -34,6 +34,7 @@ Comandos úteis:
 | Plugin | Descrição |
 |---|---|
 | `release-notes` | Gera as mensagens padronizadas de release do apex-agents em três versões (GitHub técnica, parceiros, clientes). |
+| `apex-backend-laravel` | Convenções de backend do Apex/Matti ERP (Laravel 11, PHP 8.2, multi-tenant): services por módulo, scoping por organização/empresa, DTOs, repositories, FormRequests e testes. |
 
 ## Estrutura do repo
 
