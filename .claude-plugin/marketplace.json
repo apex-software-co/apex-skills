@@ -1,0 +1,19 @@
+{
+  "name": "apex-skills",
+  "owner": {
+    "name": "Apex Software"
+  },
+  "description": "Marketplace de skills do time Apex para o Claude Code. Cada skill é um plugin instalável individualmente.",
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "release-notes",
+      "source": "./plugins/release-notes",
+      "description": "Gera as mensagens padronizadas de release do apex-agents em três versões (GitHub técnica, parceiros, clientes).",
+      "category": "productivity",
+      "keywords": ["release", "changelog", "comunicado", "apex-agents"]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "release-notes",
+  "description": "Gera as mensagens padronizadas de release do apex-agents em três versões (GitHub técnica, parceiros, clientes).",
+  "author": {
+    "name": "Apex Software"
+  },
+  "keywords": ["release", "changelog", "comunicado", "apex-agents"]
+}
