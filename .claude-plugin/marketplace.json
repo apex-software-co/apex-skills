@@ -21,6 +21,13 @@
       "description": "Convenções de backend do Apex/Matti ERP (Laravel 11, PHP 8.2, multi-tenant): services por módulo, scoping por organização/empresa, DTOs, repositories, FormRequests e testes.",
       "category": "development",
       "keywords": ["laravel", "php", "erp", "backend", "conventions", "apex-erp-core"]
+    },
+    {
+      "name": "apex-frontend-nuxt",
+      "source": "./plugins/apex-frontend-nuxt",
+      "description": "Convenções e scaffolding de frontend Nuxt 4 + TypeScript + Pinia (setup stores) + Nuxt UI + Zod: store magro, createResource<T> sobre $fetch, composables por domínio, tipos entidade/payload, forms com Zod/UForm e dialogs via useOverlay.",
+      "category": "development",
+      "keywords": ["nuxt", "vue", "typescript", "pinia", "nuxt-ui", "frontend", "conventions"]
     }
   ]
 }

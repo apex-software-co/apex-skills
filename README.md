@@ -35,6 +35,7 @@ Comandos úteis:
 |---|---|
 | `release-notes` | Gera as mensagens padronizadas de release do apex-agents em três versões (GitHub técnica, parceiros, clientes). |
 | `apex-backend-laravel` | Convenções de backend do Apex/Matti ERP (Laravel 11, PHP 8.2, multi-tenant): services por módulo, scoping por organização/empresa, DTOs, repositories, FormRequests e testes. |
+| `apex-frontend-nuxt` | Convenções e scaffolding de frontend Nuxt 4 + TypeScript + Pinia + Nuxt UI + Zod: store magro, `createResource<T>` sobre `$fetch`, composables por domínio, tipos entidade/payload, forms com Zod/UForm e dialogs via `useOverlay`. |
 
 ## Estrutura do repo
 

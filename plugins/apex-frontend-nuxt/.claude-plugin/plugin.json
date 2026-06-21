@@ -1,0 +1,8 @@
+{
+  "name": "apex-frontend-nuxt",
+  "description": "Convenções e scaffolding de frontend Nuxt 4 + TypeScript + Pinia (setup stores) + Nuxt UI + Zod: store magro (state + sync), createResource<T> sobre $fetch, composables por domínio, tipos entidade/payload, forms com Zod/UForm e dialogs via useOverlay.",
+  "author": {
+    "name": "Apex Software"
+  },
+  "keywords": ["nuxt", "vue", "typescript", "pinia", "nuxt-ui", "frontend", "conventions"]
+}
