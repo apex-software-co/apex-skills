@@ -1,0 +1,8 @@
+{
+  "name": "apex-statusline",
+  "description": "Statusline do Apex para o Claude Code: diretório, branch git, barra fracionada de uso do context window (com cor por faixa), tokens, custo da sessão e duração — com a marca ▲ Apex Software no fim.",
+  "author": {
+    "name": "Apex Software"
+  },
+  "keywords": ["statusline", "status", "bar", "context-window", "branding", "apex", "tokens", "cost"]
+}

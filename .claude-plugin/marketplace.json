@@ -35,6 +35,13 @@
       "description": "Práticas de UI/UX dos frontends Apex, agnósticas de biblioteca: os 4 estados (carregando/vazio/erro/conteúdo), loading via skeleton vs overlay vs botão, arquétipos de tela (lista, form modal vs página, dashboard, POS), hierarquia de botões, dialogs e confirmações, toasts, forms, tabelas e tema/cores sem hardcode.",
       "category": "development",
       "keywords": ["ui", "ux", "frontend", "design", "loading", "estados", "tema", "conventions"]
+    },
+    {
+      "name": "apex-statusline",
+      "source": "./plugins/apex-statusline",
+      "description": "Statusline do Apex para o Claude Code: diretório, branch git, barra fracionada de uso do context window (cor por faixa), tokens, custo da sessão e duração — com a marca ▲ Apex Software no fim.",
+      "category": "productivity",
+      "keywords": ["statusline", "status", "bar", "context-window", "branding", "apex", "tokens", "cost"]
     }
   ]
 }

@@ -37,6 +37,7 @@ Comandos úteis:
 | `apex-backend-laravel` | Convenções de backend do Apex/Matti ERP (Laravel 11, PHP 8.2, multi-tenant): services por módulo, scoping por organização/empresa, DTOs, repositories, FormRequests e testes. |
 | `apex-frontend-nuxt` | Convenções e scaffolding de frontend Nuxt 4 + TypeScript + Pinia + Nuxt UI + Zod: store magro, `createResource<T>` sobre `$fetch`, composables por domínio, tipos entidade/payload, forms com Zod/UForm e dialogs via `useOverlay`. |
 | `apex-ui-ux` | Práticas de UI/UX dos frontends Apex, agnósticas de biblioteca: os 4 estados (carregando/vazio/erro/conteúdo), loading via skeleton/overlay/botão, arquétipos de tela (lista, form, dashboard, POS), hierarquia de botões, dialogs/confirmações, toasts, forms, tabelas e tema sem cor hardcoded. |
+| `apex-statusline` | Statusline (custom bar) do Apex: diretório, branch, barra de uso do context window, tokens, custo e duração da sessão, com a marca `▲ Apex Software`. Após instalar, requer uma linha em `settings.json` apontando pro script. |
 
 ## Estrutura do repo
 
