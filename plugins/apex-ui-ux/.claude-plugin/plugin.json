@@ -1,0 +1,8 @@
+{
+  "name": "apex-ui-ux",
+  "description": "Práticas de UI/UX dos frontends Apex, agnósticas de biblioteca (Vuetify hoje, Nuxt UI no destino): os 4 estados (carregando/vazio/erro/conteúdo), loading via skeleton vs overlay vs botão, arquétipos de tela (lista, form modal vs página, dashboard, POS/caixa, relatório), hierarquia e posição de botões, dialogs e confirmação de ação destrutiva, toasts, forms, tabelas e tema/cores sem hardcode.",
+  "author": {
+    "name": "Apex Software"
+  },
+  "keywords": ["ui", "ux", "frontend", "design", "loading", "skeleton", "estados", "componentes", "tema", "conventions"]
+}

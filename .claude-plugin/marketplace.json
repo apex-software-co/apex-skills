@@ -28,6 +28,13 @@
       "description": "Convenções e scaffolding de frontend Nuxt 4 + TypeScript + Pinia (setup stores) + Nuxt UI + Zod: store magro, createResource<T> sobre $fetch, composables por domínio, tipos entidade/payload, forms com Zod/UForm e dialogs via useOverlay.",
       "category": "development",
       "keywords": ["nuxt", "vue", "typescript", "pinia", "nuxt-ui", "frontend", "conventions"]
+    },
+    {
+      "name": "apex-ui-ux",
+      "source": "./plugins/apex-ui-ux",
+      "description": "Práticas de UI/UX dos frontends Apex, agnósticas de biblioteca: os 4 estados (carregando/vazio/erro/conteúdo), loading via skeleton vs overlay vs botão, arquétipos de tela (lista, form modal vs página, dashboard, POS), hierarquia de botões, dialogs e confirmações, toasts, forms, tabelas e tema/cores sem hardcode.",
+      "category": "development",
+      "keywords": ["ui", "ux", "frontend", "design", "loading", "estados", "tema", "conventions"]
     }
   ]
 }
