@@ -1,0 +1,8 @@
+{
+  "name": "apex-comercio-brand",
+  "description": "Marca Apex Comércio (produto da Apex Software): a fonte da verdade dos valores — verde primário #02B25F, tipografia Montserrat, logos light/dark, paleta de gráfico, design language (rounded lg, flat) e voz/tom pt-BR. Os valores concretos por trás dos tokens de tema; para comportamento de UI, use apex-ui-ux.",
+  "author": {
+    "name": "Apex Software"
+  },
+  "keywords": ["brand", "marca", "apex-comercio", "identidade", "cores", "tema", "logo", "montserrat", "tom-de-voz", "branding"]
+}
