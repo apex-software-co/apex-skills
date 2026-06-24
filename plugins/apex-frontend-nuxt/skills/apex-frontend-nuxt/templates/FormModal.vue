@@ -27,11 +27,17 @@ async function onSubmit() {
 <template>
   <UModal :title="props.resource ? 'Editar' : 'Novo'">
     <template #body>
-      <UForm :schema="resourceSchema" :state="state" @submit="onSubmit">
-        <UFormField name="name" label="Nome" required>
-          <UInput v-model="state.name" />
-        </UFormField>
+      <!-- Escala em references/espacamento-tipografia.md. Campos com space-y-4; -->
+      <!-- gap-6 separa o grupo de campos do rodapé de ações. -->
+      <UForm :schema="resourceSchema" :state="state" @submit="onSubmit" class="space-y-6">
+        <!-- Campos do form: ritmo vertical space-y-4 -->
+        <div class="space-y-4">
+          <UFormField name="name" label="Nome" required>
+            <UInput v-model="state.name" />
+          </UFormField>
+        </div>
 
+        <!-- Rodapé de ações: cancelar à esquerda, confirmar à direita, gap-2 -->
         <div class="flex justify-end gap-2">
           <UButton variant="ghost" @click="emit('close', false)">Cancelar</UButton>
           <UButton type="submit" :loading="formStore.saving">Salvar</UButton>

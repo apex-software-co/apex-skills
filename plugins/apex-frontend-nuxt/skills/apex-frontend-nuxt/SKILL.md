@@ -113,6 +113,11 @@ A estrutura completa de pastas do projeto está em
 - **Enums como `as const`** com tipo derivado, não array JS solto. Veja
   [references/structure.md](references/structure.md).
 - **Nomes descritivos, sem abreviação** — `productVariant`, não `pv`.
+- **Espaçamento e tipografia na escala fixa** — gaps/`space-y` só nos degraus
+  permitidos, texto só na escala `text-*` e em 3 pesos (400/500/600), cor por
+  token. Classes concretas em
+  [references/espacamento-tipografia.md](references/espacamento-tipografia.md);
+  regra e porquê na skill `apex-ui-ux`.
 
 ## Checklist de revisão
 
@@ -128,3 +133,5 @@ Ao revisar código de frontend, procure estes desvios:
 - [ ] Validação manual de form (ifs, regras soltas) → schema Zod + `UForm`
 - [ ] Plugin para algo que não é boot de app → mover para util/composable
 - [ ] Enum como array solto sem tipo → `as const` + tipo derivado
+- [ ] Espaçamento fora dos degraus (`gap-[..]`, `p-5`) ou `margin` por filho → usar escala + `gap`/`space-y` no container
+- [ ] Tipografia fora da escala (`text-[..]`, `font-bold`/`200`, itálico em UI) → escala `text-*` + 3 pesos

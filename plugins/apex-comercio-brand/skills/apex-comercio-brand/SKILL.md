@@ -49,7 +49,9 @@ Verde primário em hex pra peças fora do app (e-mail, social, deck): **`#02B25F
 ## Tipografia
 
 - **Montserrat** — em tudo (corpo, títulos, botões).
-- Pesos em uso: 200 (leve), 500 (médio), itálico 400.
+- Pesos da **marca/peça** (logo lockup, deck, social): 200 (leve), 500 (médio),
+  itálico 400. Para **UI de app** o vocabulário de peso é outro — 400/500/600, sem
+  itálico — porque `200` lê mal em tela densa; ver `apex-ui-ux` → `tipografia.md`.
 - Google Fonts:
   `https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;1,400&display=swap`
 - Fallback: `sans-serif`.

@@ -32,12 +32,22 @@ const columns = [
 </script>
 
 <template>
-  <div class="space-y-4">
-    <div class="flex justify-between">
-      <UInput v-model="store.query.search" placeholder="Buscar..." />
+  <!-- Escala de espaçamento/tipografia: references/espacamento-tipografia.md. -->
+  <!-- Padding da página sobe no desktop; blocos (header → filtros → tabela) -->
+  <!-- com space-y-6 md:space-y-8 no container, nunca margin por filho. -->
+  <div class="p-4 md:p-6 space-y-6 md:space-y-8">
+    <!-- Header de página: título (text-xl/semibold) + ação primária -->
+    <div class="flex items-center justify-between gap-2">
+      <h1 class="text-xl font-semibold">Recursos</h1>
       <UButton icon="i-lucide-plus" @click="create">Novo</UButton>
     </div>
 
+    <!-- Barra de filtros -->
+    <div class="flex justify-between gap-2">
+      <UInput v-model="store.query.search" placeholder="Buscar..." />
+    </div>
+
+    <!-- Conteúdo (corpo da tabela em text-sm font-normal, default da lib) -->
     <UTable :data="items" :columns="columns" :loading="loading">
       <template #actions-cell="{ row }">
         <UButton
