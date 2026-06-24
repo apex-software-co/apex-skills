@@ -98,6 +98,7 @@ APIs específicas de uma lib de componente.
 - [ ] Lista segue a anatomia (filtros → resumo → tabela/lista → paginação)?
 - [ ] Espaçamento só nos degraus permitidos, ritmo via `gap`/`space-y` no container?
 - [ ] Tipografia só na escala (xs–xl, 2xl/4xl) e em 3 pesos (400/500/600)?
+- [ ] Sem card dentro de card — um nível de `surface`, seções por título/divisor?
 - [ ] Ícone via sistema único (hugeicons), sem `mdi` novo?
 - [ ] **Zero cor hardcoded** — usa token de tema?
 - [ ] Responsivo: table↔list, dialog fullscreen mobile, ações via teleport?
@@ -112,3 +113,4 @@ APIs específicas de uma lib de componente.
 - [`references/tema.md`](references/tema.md) — cor/marca centralizada, dark mode, multi-brand.
 - [`references/espacamento.md`](references/espacamento.md) — escala de spacing, gaps, ritmo das views, densidade por arquétipo.
 - [`references/tipografia.md`](references/tipografia.md) — escala de tamanho e peso, pareamento, hierarquia, densidade por arquétipo.
+- [`references/cards.md`](references/cards.md) — superfícies, regra de um nível, não aninhar card em card, alternativas.
